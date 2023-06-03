@@ -1,0 +1,18 @@
+/* Write your CSS here */
+
+.li {
+  list-style: none;
+}
+
+.button {
+  height: 35px;
+  width: 170px;
+
+  background-color: #382f5a;
+  color: #c4c4c4;
+  outline: none;
+  border: 2px solid #c4c4c4;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 15px;
+}

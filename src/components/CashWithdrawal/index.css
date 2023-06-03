@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  background-size: cover;
+  height: 600px;
+  width: 450px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.name-container {
+  display: flex;
+  align-items: center;
+}
+.firstLetter {
+  background-color: #c7d2fe;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.name {
+  color: #c7d2fe;
+  font-size: 26px;
+  font-family: 'Roboto';
+  margin-left: 15px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance {
+  color: #7c3aed;
+  font-size: 20px;
+}
+
+.amount {
+  color: #c7d2fe;
+}
+.rupees {
+  color: #7c3aed;
+}
+.withdraw {
+  color: #c7d2fe;
+}
+.choose {
+  color: #7c3aed;
+}
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
